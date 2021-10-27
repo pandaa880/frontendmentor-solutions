@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+
+:root {
+  --bright-blue: hsl(245, 75%, 52%);
+  --pale-blue: hsl(225, 100%, 94%);
+  --extra-pale-blue: hsl(225, 100%, 98%);
+  --desaturate-blue: hsl(224, 23%, 55%);
+  --dark-blue: hsl(223, 47%, 23%);
+  --white: #ffffff;
+}
+
+html,
+body {
+  margin: 0;
+  background-color: var(--pale-blue);
+  font-family: "Red Hat Display", sans-serif;
+}
+
+.container {
+  padding: 71px 0 71px 0;
+  background-image: url("../images/pattern-background-mobile.svg");
+  background-repeat: no-repeat;
+}
+
+.card {
+  margin: 0 24px;
+  border: 1px solid transparent;
+  border-radius: 20px;
+  background-color: var(--white);
+}
+
+.card-hero-img {
+  width: 100%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.card-details {
+  padding: 2rem 2rem 0 2rem;
+}
+
+.card-title {
+  margin: 0 0 1rem 0;
+  color: var(--dark-blue);
+  font-weight: 900;
+  font-size: 22px;
+  line-height: 29px;
+  text-align: center;
+}
+
+.card-description {
+  margin-bottom: 24px;
+  color: var(--desaturate-blue);
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 25px;
+  text-align: center;
+}
+
+.price-info-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+  padding: 1rem;
+  border-radius: 11px;
+  background-color: var(--extra-pale-blue);
+}
+
+.price-info {
+  display: flex;
+  align-items: center;
+}
+
+.price-info-container button {
+  color: var(--bright-blue);
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 17px;
+  text-decoration-line: underline;
+}
+
+.price-duration {
+  margin-left: 20px;
+  color: var(--dark-blue);
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 19px;
+}
+
+.price-amount {
+  display: block;
+  margin-top: 3px;
+  color: var(--desaturate-blue);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 19px;
+}
+
+.payment-btn-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.btn-payment {
+  margin-bottom: 24px;
+  padding: 1rem 0;
+  border: 0;
+  border-radius: 11px;
+  box-shadow: 0px 20px 20px rgba(56, 42, 225, 0.190291);
+  width: 100%;
+  background-color: var(--bright-blue);
+  cursor: pointer;
+  color: var(--white);
+  font-weight: 900;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.btn-cancel {
+  margin-bottom: 2rem;
+  border-color: transparent;
+  background: none;
+  color: var(--desaturate-blue);
+  cursor: pointer;
+  font-weight: 900;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.attribution {
+  margin-top: 2rem;
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
